@@ -1,0 +1,42 @@
+.quoteContainer{
+    max-width: 875px;
+    min-height: 298px;
+    background-color:  #D05252;
+    border-radius: 30px;
+    color:  white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.author{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40%;
+}
+.authorName{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.button{
+    background: none;
+    width: 22.5px;
+    height: 30px;
+    cursor: pointer;
+}
