@@ -2,17 +2,20 @@ import React from 'react';
 import { MdDelete } from 'react-icons/md';
 import './QuoteCards.css'
 
-const QuotedCards = () => {
+const QuotedCards = ({item}) => {
   return (
-    <div className="quoteContainer">
-        <div className="message">
-            its a sample quotes for testing bookmark ui and functionalities
-        </div>
-        <div className="author">
-            <h5 className='authorName' >-Aswin  S</h5>
+    <div className='quoteContainer'>
+                 
+          <div className="message">
+                {item.content}
+          </div>
+          < div className="author">
+            <h5 className='authorName'>-{item.author}</h5>
             <MdDelete className='button' />
+
+          </div>
+
         </div>
-    </div>
   )
 }
 
