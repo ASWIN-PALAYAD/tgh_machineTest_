@@ -24,3 +24,7 @@ select{
     border-radius: 30px;
     color: white;
 }
+.loading{
+    color: white;
+    font-size: 30px;
+}
