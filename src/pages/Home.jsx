@@ -56,7 +56,7 @@ const Home = () => {
         </select>
       </div>
 
-      <button className='nextButton' >Next Quote</button>
+      <button className='nextButton' onClick={fetchData} >Next Quote</button>
 
     </div>
     

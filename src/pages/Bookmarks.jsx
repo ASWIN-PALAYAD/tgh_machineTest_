@@ -6,10 +6,7 @@ const Bookmarks = () => {
   return (
     <div className="bookmarkPage">
       <QuotedCards/>
-      <QuotedCards/>
-      <QuotedCards/>
-      <QuotedCards/>
-      
+
     </div>
   )
 }
